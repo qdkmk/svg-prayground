@@ -7,6 +7,7 @@
   <title>SVGアニメーションデモ2 : CSS3 Animation</title>
   <link rel="stylesheet" href="css.nested.css">
   <script src="vivus.min.js"></script>
+  <script src="js.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -32,13 +33,13 @@
     </div>
   </div>
 
-<script>
-new Vivus('target-delayed',
+<script>new Vivus('target-delayed',
           {duration: 100 , start: 'autostart', type: 'delayed'},
           function(obj){
             obj.el.classList.add('finished');
           });
 </script>
+
 </body>
 
 </html>

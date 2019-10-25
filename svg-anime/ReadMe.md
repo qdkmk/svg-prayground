@@ -23,5 +23,11 @@ vivus.jsはスクロール発火もやってくれるそう。
 vivusで描画、snap.svgは地図描画後にピンを下ろす動作を担っている。
 
 
-vivusの設定についてはligの記事がわかりやすい
+# vivus-simple
+参考サイト
 https://liginc.co.jp/394561
+vivusの設定についてはligの記事サンプルがわかりやすかった。
+
+# vivus-simple-OneByOne
+参考サイト：同上
+パスの描画順の確認。特にonebyoneのオプションでsvgファイルに記述したパスの順に描画されること。
